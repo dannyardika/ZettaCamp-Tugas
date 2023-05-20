@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="container">
+    <section id="top-section">
+        <div class="user-section">
+            <div>
+                <img src="./assets/user1.jpg" alt="Profile" class="img">
+            </div>
+            <div class="user-id">
+                <div><span id="username">Danny</span> membuat posting baru</div>
+                <small class="post-time">32 menit yang lalu</small>
+            </div>
+        </div>
+
+        <a href="" id="circle"></a>
+    </section>
+
+    <section id="post">
+        <p id="post-title">Fotonya bagus yaa</p>
+
+        <img src="./assets/nature.jpg" alt="Post image" class="post-img">
+    </section>
+
+    <section id="like-and-share">
+        <div id="like">
+            <span>&#10084; Like (10)</span>
+        </div>
+
+        <div id="share">
+            <span><img src="./assets/share.png" alt="" id="share-button"> Share (22)</span>
+        </div>
+    </section>
+
+    <section id="comments">
+        <div id="comment-title">
+            <p>1 comments &nbsp;</p>
+            <a href="#">
+                <div class="arrow"></div>
+            </a>
+        </div>
+
+        <div id="comment">
+            <div class="user-comment-section">
+                <div>
+                    <img src="./assets/user2.jpg" alt="Profile" class="img">
+                </div>
+                <div class="user-id">
+                    <div><span class="font-bold">Kevin</span> <span class="text-gray">17 May 2023</span></div>
+                    <p>Betul! Pemandangannya sangat bagus!</p>
+
+                    <div id="comment-option">
+                        <a href="" class="reply-button">Reply</a>
+                        <a href=""><img src="./assets/flag.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="user-comment-section">
+                <div>
+                    <img src="./assets/user3.png" alt="Profile" class="img-anonym">
+                </div>
+                <div class="user-id">
+                    <form action="" class="form">
+                    <textarea name="comment-input" id="" cols="80" rows="7"
+                              placeholder="Tambahkan komentar..."></textarea>
+                        <button type="submit" class="btn-submit"><span>Post Comment</span></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>

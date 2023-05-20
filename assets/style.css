@@ -1,0 +1,157 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+
+.img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+#username {
+    color: deepskyblue;
+    font-weight: bold;
+}
+
+#top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.user-section {
+    display: flex;
+}
+
+/*.user-section > img, .user-section > .user-id {*/
+/*    display: inline-block;*/
+/*}*/
+
+#comment {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.user-id {
+    margin-left: 15px;
+}
+
+.user-comment-section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+a#circle {
+    text-decoration: none;
+    color: black;
+}
+
+#circle:after {
+    content: '\2807';
+    font-size: 30px;
+}
+
+#post-title {
+    margin-bottom: 30px;
+}
+
+.post-img {
+    width: 80%;
+}
+
+#like-and-share {
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+}
+
+#share-button {
+    width: 17px;
+}
+
+#comments {
+    background-color: #ececec;
+    margin-top: 30px;
+    padding: 0.5% 1% 0.5% 1%;
+}
+
+.reply-button {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+.img-anonym {
+    width: 60px;
+}
+
+
+.btn-submit {
+    width: 25%;
+    height: 40px;
+    background-color: deepskyblue;
+    color: white;
+    border: 0;
+    box-shadow: 2px 2px gray;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+textarea {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+
+.btn-submit > span {
+    font-weight: bold;
+}
+
+#share > span {
+    display: inline-block;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.arrow {
+    height: 10px;
+    width: 10px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+}
+
+#comment-title {
+    display: flex;
+    gap: 10px;
+}
+
+#comment-title > a {
+    margin-top: 17px;
+}
+
+.post-time {
+    color: gray;
+}
+
+#comment-option {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
